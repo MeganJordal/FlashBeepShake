@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
-        
+
 
         val camManager = getSystemService(Context.CAMERA_SERVICE) as CameraManager
         val cam = camManager.cameraIdList[0]
